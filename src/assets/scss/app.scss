@@ -1,0 +1,23 @@
+@import 'helpers/reset';
+@import 'helpers/colors';
+@import 'helpers/fonts';
+@import 'helpers/transitions';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 1.1em;
+  line-height: 135%;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: $cBlack;
+}
+

@@ -8,12 +8,26 @@
 @import 'Navigation';
 @import 'Project';
 
+:root {
+  --fontSmall: 1em;
+  --fontText: 1.2em;
+  --fontBase: 1.4em;
+  --fontMedium: 64px;
+  --fontExtraLarge: 2.7em;
+  --fontLarge: 2em;
+
+  --baseLineheight: 145%;
+
+  --opacityBase: 0.5;
+  --opacityLight: 0.3;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html, body {
-  height: 100%;
+  /* height: 100%; */
 }
 
 body {
@@ -23,11 +37,33 @@ body {
   color: $cWhite;
   background: $cBlack;
   font-family: $font-sans;
-  font-size: 1.4em;
-  font-weight: 200;
-  line-height: 135%;
+  font-size: var(--fontBase);
+  font-weight: 100;
+  line-height: var(--baseLineheight);
+  font-family: 'Circular', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 a {
   color: $cWhite;
 }
+
+.Content {
+  width: 1440px;
+  margin: 2em auto 4em;
+}
+
+
+.is-scrollable { 
+  opacity: 0;  
+  transform: translate(0px, 30px);  
+  transition: opacity 500ms ease-in-out, transform 250ms ease-in-out;  
+} 
+
+.is-scrollable.is-visible { 
+  opacity: 1; 
+  transform: translate(0, 0); 
+} 
+
+
+
+

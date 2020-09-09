@@ -3,10 +3,12 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-}
 
-.Navigation__main {
+  font-size: var(--fontBase);
+  font-weight: 100;
+  line-height: var(--baseLineheight);
 
+  margin: 0 0 6em;
 }
 
 .Navigation__links {

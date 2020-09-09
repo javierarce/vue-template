@@ -14,7 +14,9 @@
     "content": [
       { "type": "tweet", "url": "https://twitter.com/javier/status/1143949898439712769" },
       { "type": "image", "src": "animation.gif", "caption": "Very subtle hidden message." },
+      { "type": "columns", "text": "This is a paragraph.\nDolor eveniet illum pariatur voluptas ratione cumque Minus animi illum velit iusto sint Assumenda id voluptas qui odit consequatur deserunt Provident deserunt accusantium nulla magnam ea? Sed nobis maiores nesciunt.\nThis is yet another. This is a paragraph.\nDolor eveniet illum pariatur voluptas ratione cumque Minus animi illum velit iusto sint Assumenda id voluptas qui odit consequatur deserunt Provident deserunt accusantium nulla magnam ea? Sed nobis maiores nesciunt. This is yet another. This is a paragraph.\nThis is yet another." },
       { "type": "text", "text": "Sit tenetur atque rem aliquid placeat debitis nihil? Ex qui esse cum libero minus Nisi totam impedit a enim ab Saepe vitae neque earum laborum voluptatum laborum ut Aliquid impedit! subtle hidden message." },
+      { "type": "quote", "text": "I love this project because it combines many of the things I care about: design, code" },
       { "type": "image", "src": "animation2.gif", "caption": "Yep, ☝️that's true." },
       { "type": "image", "src": "animation3.gif", "caption": "Is this my favorite section? Yes, yes it is. PS: In a future iteration I plan to add sounds using the same system." }
     ]

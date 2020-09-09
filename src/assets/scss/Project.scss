@@ -1,16 +1,49 @@
 .Project {
   max-width: 1440px;
-  margin: auto;
-  padding: 1em;
-  font-size: 1.3em;
-  line-height: 145%;
+  margin: 0 auto 6em;
+  line-height: var(--baseLineheight);
+  font-weight: 100;
+  font-size: var(--fontBase);
 }
 
-.Project > div,
+.Project__intro {
+  opacity: 0;  
+  transition: opacity 500ms ease-in-out;
+}
+
+.Project__intro.is-visible {
+  opacity: 1;  
+}
+
 .Project__item,
 .Project__itemText,
 .Project__itemImage {
-  margin: 0 0 1em;
+   margin: 0 0 1em; 
+}
+
+.Project__header {
+  margin: 0 0 4em;
+  line-height: var(--baseLineheight);
+  text-align: center;
+}
+
+.Project__title {
+  font-size: 2.4em;
+  line-height: var(--baseLineheight);
+}
+
+.Project__subtitle {
+  font-size: 1.4em;
+  margin: auto;
+  opacity: 0.5;
+  line-height: var(--baseLineheight);
+}
+
+.Project__description {
+  margin: 0 0 4em;
+  padding: 0 4em;
+  line-height: var(--baseLineheight);
+  text-align: center;
 }
 
 .Project__itemImage {
@@ -27,4 +60,26 @@
   width: 100%;
   background: #fafafa;
   opacity: 0.2;
+}
+
+.Projects {
+  line-height: var(--baseLineheight);
+  font-size: var(--fontBase);
+}
+
+.Project__itemColumns {
+  columns: 2;
+  margin: 3em 0;
+}
+
+.Project__itemColumns p {
+  margin: 0 0 1em;
+}
+
+.Project__itemQuote {
+  font-size: 2.4em;
+  padding: 0 2em;
+  line-height: var(--baseLineheight);
+  text-align: center;
+  margin: 3em auto;
 }

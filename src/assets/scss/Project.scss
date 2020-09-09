@@ -1,0 +1,30 @@
+.Project {
+  max-width: 1440px;
+  margin: auto;
+  padding: 1em;
+  font-size: 1.3em;
+  line-height: 145%;
+}
+
+.Project > div,
+.Project__item,
+.Project__itemText,
+.Project__itemImage {
+  margin: 0 0 1em;
+}
+
+.Project__itemImage {
+  margin: 0 0 4em;
+}
+
+.Project__imageCaption {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.Project__imageFile {
+  height: 800px;
+  width: 100%;
+  background: #fafafa;
+  opacity: 0.2;
+}

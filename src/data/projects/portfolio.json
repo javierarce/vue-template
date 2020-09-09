@@ -1,0 +1,21 @@
+{
+  "id": "0",
+    "permalink": "portfolio",
+    "title": "Illustration portfolio",
+    "subtitle": "My silly portfolio",
+    "roles": "Designer, Developer, Illustrator",
+    "link": {
+      "title": "Go to my portfolio",
+      "url": "https://www.javierarce.com/"
+    },
+    "short_description": "My personal illustration portfolio",
+    "description": "After many years without a proper illustration portfolio, I decided to create a… pretty weird one.\nThe site contains more than twenty clickable spots that transform the drawings and reveal new elements to the casual visitor and the unsuspecting art director.\nMy favorite part of this project is that all the different states are stored inside the SVG files. My website (programmed using Vue.js) reads an image file and, based on the layer names, generates and render a specific kind of interaction. This allows me to update my portfolio without leaving Adobe Illustrator! :)",
+    "tweet": "",
+    "content": [
+      { "type": "tweet", "url": "https://twitter.com/javier/status/1143949898439712769" },
+      { "type": "image", "src": "animation.gif", "caption": "Very subtle hidden message." },
+      { "type": "text", "text": "Sit tenetur atque rem aliquid placeat debitis nihil? Ex qui esse cum libero minus Nisi totam impedit a enim ab Saepe vitae neque earum laborum voluptatum laborum ut Aliquid impedit! subtle hidden message." },
+      { "type": "image", "src": "animation2.gif", "caption": "Yep, ☝️that's true." },
+      { "type": "image", "src": "animation3.gif", "caption": "Is this my favorite section? Yes, yes it is. PS: In a future iteration I plan to add sounds using the same system." }
+    ]
+}

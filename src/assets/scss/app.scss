@@ -3,6 +3,11 @@
 @import 'helpers/fonts';
 @import 'helpers/transitions';
 
+@import 'About';
+@import 'Footer';
+@import 'Navigation';
+@import 'Project';
+
 * {
   box-sizing: border-box;
 }
@@ -12,12 +17,17 @@ html, body {
 }
 
 body {
-  font-size: 1.1em;
-  line-height: 135%;
-  font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  color: $cBlack;
+  color: $cWhite;
+  background: $cBlack;
+  font-family: $font-sans;
+  font-size: 1.4em;
+  font-weight: 200;
+  line-height: 135%;
 }
 
+a {
+  color: $cWhite;
+}

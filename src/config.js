@@ -1,3 +1,4 @@
 export default {
-  TITLE: 'template'
+  TITLE: 'Portfolio',
+  PROJECT_IMAGE_PATH: 'images/projects'
 }

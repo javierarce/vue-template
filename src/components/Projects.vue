@@ -1,7 +1,7 @@
 <template>
   <div class="Projects">
     <div class="Project__item" v-for="item in projects" :key="item.id">
-      <div v-html="item.title"></div>
+      <router-link v-html="item.title" :to="projectURL(item)"></router-link>
     </div>
   </div>
 </template>
@@ -25,6 +25,11 @@ export default {
         this.projects.push(project)
       })
     })
+  },
+  methods: {
+    projectURL (item) {
+      return `/project/${item.permalink}`
+    }
   }
 }
 

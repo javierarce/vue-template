@@ -13,7 +13,7 @@
   "dependencies": {
     "core-js": "^3.4.4",
     "intersection-observer": "^0.11.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.0",
     "scrollama": "^2.2.1",
     "vanilla-lazyload": "^17.1.2",
